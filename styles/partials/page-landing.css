@@ -4,7 +4,8 @@
 }
 
 #page-landing #container{
-    background: var(--color-title-in-primary);
+    background: var(--color-primary);
+    color: var(--color-title-in-primary);
 }
 
 .logo-container img{

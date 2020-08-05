@@ -44,7 +44,7 @@ body{
 
 body, input, button, textarea{
     font: 500 1.6rem Poppins; /*weight family size*/
-    color: var(--color-text-base)
+    color: var(--color-text-base);
 }
 
 #container {
@@ -57,3 +57,4 @@ body, input, button, textarea{
         font-size: 62.5%; /* todo 1rem vai ser relativo a 10px */
     }
 }
+
