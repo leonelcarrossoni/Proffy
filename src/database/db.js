@@ -14,7 +14,7 @@ function execute (db) {
 
         CREATE TABLE IF NOT EXISTS classes (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            subject TEXT,
+            subject INTEGER,
             cost TEXT,
             proffy_id INTEGER
         );
@@ -30,5 +30,3 @@ function execute (db) {
 }
 
 module.exports = Database.open(__dirname + '/database.sqlite').then(execute) //Vai abrir o data base e então executar a função execute...
-
-// node src/database/db.js
