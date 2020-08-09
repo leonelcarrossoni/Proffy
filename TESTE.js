@@ -20,3 +20,5 @@ function cloneField() {
     // Colocar na página. Em que lugar da página
     document.querySelector('#schedule-items').appendChild(newFieldContainer)
 }
+
+TESTE
